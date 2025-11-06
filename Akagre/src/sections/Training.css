@@ -1,0 +1,424 @@
+
+/*--Program Highlight section*/
+.program-highlight{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 198px;
+}
+.program-heading{
+    font-weight: bolder;
+    letter-spacing: -2px;
+    font-family: 'inter', sans-serif;
+    color: #895129;
+    font-size: 29px;
+    margin-left: 275px;
+}
+.program-highlight-contents{
+  position: relative;
+  align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.program-involves{
+    background-color: white;
+    width: 605px;
+    
+}
+.program-involves ul{
+    width: 499px ;
+}
+.program-involves li{
+    margin-bottom: 16px;
+}
+.program-involves h3{
+ font-size: 14px;
+ font-family: 'geist', sans-serif;
+ margin: 0;
+ padding: 0;
+ font-weight: 600;
+}
+.program-involves p{
+ font-size: 14px;
+ font-family: 'geist', sans-serif;
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+}
+.next-class{    
+    width: 512px;
+    height: 189px;
+    background-color: white;
+    border-radius: 22.5px;
+    position:sticky;
+    top: 10%;
+    padding: 8px; /* ✅ gives space for inner box to “breathe” */
+    box-sizing: border-box; 
+
+}
+.next-class h4{
+    font-size: 12.6px;
+    margin-left: 24px;
+    
+}
+.next-class-container{
+    background-color: #D9D9D973;
+     width: 100%;
+  height: 70%;
+  border-radius: 14.4px;
+    
+}
+
+.next-class-container li{
+    font-size: 12.6px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    
+}
+.next-class-container .canceled{
+    color: rgba(0, 0, 0, 0.445);
+    text-decoration: line-through;
+    
+    padding-top: 24px;
+}
+
+
+/*---why choose Akagre---*/
+.why-choose-akagre{
+    margin-bottom: 96px;
+}
+.why-choose-akagre h2{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: -4%;
+}
+.why-choose-akagre h2 span{
+    color: #895129;
+}
+.why-p{
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 1140px;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #000000B8;
+    margin-bottom: 34px;
+}
+
+/*-- why choose AkagreBakeryShop Cards*/
+.choose-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.choose-single-card{
+    background-color: white;
+    width: 325px;
+    height: 180px;
+    border-radius: 28px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+
+}
+.choose-single-card h4{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.choose-single-card p{
+    font-size: 12px;
+    color: #636363;
+    width: 297px;
+    font-family: 'inter', sans-serif;
+    margin: 49px 14px 0 14px;
+    
+}
+
+/*--student reviews-- */
+.what-our{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vw;
+    gap: 100px;
+}
+.what-our h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+
+}
+.what-our h2 span{
+    color: #00000089;
+}
+
+.image-video{
+    position: relative;
+    width: 608px;
+    height: 310px;
+}
+.image-video img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #00000024;
+     object-fit: cover;
+}
+.image-video-btn{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    background: none;
+    border: none;
+    transform: translate(-50%, -50%); /* centers it perfectly */
+ 
+  color: white;
+    padding: 12px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.image-video-btn:hover {
+  transform: translate(-50%, -50%) scale(1.05); /* subtle zoom effect */
+  color: #f5c542; /* optional hover color */
+}
+
+/* ===== Popup Modal ===== */
+/* Fade-in and fade-out animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+
+.video-modal {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.4s ease forwards;
+}
+.video-modal.closing {
+  animation: fadeOut 0.4s ease forwards;
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.modal-video {
+  width: 100%;
+  height: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.1);
+  color: #f5c542;
+}
+
+
+/*Lottie footer animation*/
+.blackback{
+  background-color: #000;
+}
+.footer-animation{
+  display: flex;
+  justify-content: center;
+  background-color: #895129;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+    border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+.footerlottie{
+    border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  width: 1300px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+
+/* === Program Highlight Section === */
+.program-highlight {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  padding: 0 16px;
+}
+
+.program-heading {
+  font-size: 22px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.program-highlight-contents {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.program-involves {
+  width: 100%;
+  padding: 16px;
+}
+
+.program-involves ul {
+  width: 100%;
+  padding-left: 16px;
+}
+
+.next-class {
+  position: static;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+
+.next-class h4 {
+  margin: 16px;
+  font-size: 14px;
+}
+
+.next-class-container {
+  width: 369px;
+  height: auto;
+  margin-left: 0;
+  padding: 12px;
+}
+
+/* === Why Choose Akagre === */
+.why-choose-akagre {
+  margin-bottom: 60px;
+  padding: 0 16px;
+}
+
+.why-choose-akagre h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.why-p {
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.3;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.choose-cards {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.choose-single-card {
+  width: 90%;
+  height: auto;
+  padding: 20px 10px;
+  border-radius: 24px;
+}
+
+.choose-single-card h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.choose-single-card p {
+  font-size: 12px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+/* === Student Reviews Section === */
+.what-our {
+  flex-direction: column;
+  height: auto;
+  gap: 24px;
+  padding: 0 16px;
+}
+
+.what-our h2 {
+  font-size: 24px;
+  
+}
+
+.image-video {
+  width: 100%;
+  height: auto;
+}
+
+.image-video img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.image-video-btn {
+  font-size: 24px;
+}
+
+/* === Footer Animation === */
+.footer-animation {
+  width: 100%;
+  border-radius: 0;
+}
+
+.footerlottie {
+  width: 100%;
+  border-radius: 0;
+}
+
+}
