@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
-import './hero.css';
-import heroImage from '../assets/Herobackground.jpg';
+import './Hero.css';
+
 
 
 function Hero() {
