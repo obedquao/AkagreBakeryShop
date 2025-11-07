@@ -1,5 +1,6 @@
 import TrainingHero from "../components/TrainingHero";
 import "./Training.css";
+import Gallery from "./Gallery";
 import { useState, useRef } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaRegPlayCircle } from "react-icons/fa";
@@ -92,7 +93,7 @@ function Training() {
             <div className="next-class-container">
               <ul>
                 <li className="canceled">Current class: Closed & Ongoing</li>
-                <li>Next Class: 15th January 2026</li>
+                <li>Next Class: Monday, 2nd February 2026</li>
               </ul>
             </div>
           </motion.div>
@@ -198,6 +199,8 @@ function Training() {
           </motion.div>
         )}
       </motion.div>
+      {/* --- Gallery Section --- */}
+      <Gallery />
 
       {/* --- Footer Animation --- */}
       <motion.div

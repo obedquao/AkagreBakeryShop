@@ -89,13 +89,13 @@ function Menu (){
                 <p>Cakes<span className="color-brown">(2-Layer)</span></p>
             <div className="product-list">
                 <Product 
-                    image="/images/products/5inch.webp" price="GH₵ 300" layers="2" inches="5" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%205%20inches%20cake"/>
+                    image="/images/products/5inch.webp" price="GH₵ 650" layers="2" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%205%20inches%20cake"/>
                  <Product 
-                    image="/images/products/6inch.webp" price="GH₵ 350" layers="2" inches="6" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%206%20inches%20cake"/>
+                    image="/images/products/6inch.webp" price="GH₵ 400" layers="2" inches="6" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%206%20inches%20cake"/>
                     <Product 
-                    image="/images/products/7inch.webp" price="GH₵ 450" layers="2" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%207%20inches%20cake"/>
+                    image="/images/products/7inch.webp" price="GH₵ 500" layers="2" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%207%20inches%20cake"/>
                     <Product 
-                    image="/images/products/8-inch.webp" price="GH₵ 550" layers="2" inches="8" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%208%20inches%20cake"/>
+                    image="/images/products/8-inch.webp" price="GH₵ 650" layers="2" inches="8" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%202-layer,%208%20inches%20cake"/>
             </div>
             </div>
 
@@ -103,13 +103,26 @@ function Menu (){
                 <p>Cake<span className="color-brown">(3-Layer)</span></p>
             <div className="product-list">
                 <Product 
-                    image="/images/products/3lay6.webp" price="GH₵ 300" layers="3" inches="6" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%206%20inches%20cake"/>
+                    image="/images/products/3lay6.webp" price="GH₵ 700" layers="3" inches="6" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%206%20inches%20cake"/>
                  <Product 
-                    image="/images/products/3lay7.webp" price="GH₵ 300" layers="3" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%207%20inches%20cake"/>
+                    image="/images/products/basiccake600.webp" price="GH₵ 650" layers="3" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%207%20inches%20cake"/>
                     <Product 
-                    image="/images/products/3lay8.webp" price="GH₵ 300" layers="3" inches="8" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%208%20inches%20cake"/>
+                    image="/images/products/3lay8.webp" price="GH₵ 750" layers="3" inches="8" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%208%20inches%20cake"/>
                     <Product 
-                    image={goldcake} price="GH₵ 300" layers="3" inches="10" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%2010%20inches%20cake"/>
+                    image={goldcake} price="GH₵ 850" layers="3" inches="10" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%2010%20inches%20cake"/>
+            </div>
+            </div>
+               <div className="prodTL">
+                <p>Premium<span className="color-brown">Cakes</span></p>
+            <div className="product-list">
+                <Product 
+                    image="/images/products/p1850.webp" price="GH₵ 850" layers="4" inches="6" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%206%20inches%20cake"/>
+                 <Product 
+                    image="/images/products/p21300.webp" price="GH₵ 1300" layers="4" inches="7" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%207%20inches%20cake"/>
+                    <Product 
+                    image="/images/products/p31100.webp" price="GH₵ 1100" layers="4" inches="8" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%208%20inches%20cake"/>
+                    <Product 
+                    image="/images/products/p41400.webp" price="GH₵ 1400" layers="4" inches="10" link="https://api.whatsapp.com/send?phone=233240091201&text=I%20am%20coming%20from%20your%20website%20and%20I%20will%20like%20to%20buy%20a%203-layer,%2010%20inches%20cake"/>
             </div>
             </div>
 
