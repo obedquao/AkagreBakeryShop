@@ -199,6 +199,7 @@ function Training() {
           </motion.div>
         )}
       </motion.div>
+      
       {/* --- Gallery Section --- */}
       <Gallery />
 
