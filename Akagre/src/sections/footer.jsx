@@ -36,8 +36,8 @@
             <h3>Follow our socials</h3>
             <div className="socials-icons">
                 <a href='https://www.tiktok.com/@akagrebakeryshop28?is_from_webapp=1&sender_device=pc'><img src="images/icons/tiktok.png"/></a>
-            <a href='https://www.snapchat.com/add/akagrebakeryshop28'><img src="images/icons/snapchat.png"/></a>
-            <a href='https://www.instagram.com/akagrebakeryshop28/'><img src="images/icons/instagram.png"/></a>
+            <a href='https://www.snapchat.com/add/akagre30'><img src="images/icons/snapchat.png"/></a>
+            <a href='https://https://www.instagram.com/akagres_bakes?igsh=OWF5OTUxcnN3cHQw/'><img src="images/icons/instagram.png"/></a>
             <a href='https://wa.me/233240091201'><img src="images/icons/whatsapp.png"/></a> 
             </div>
            
