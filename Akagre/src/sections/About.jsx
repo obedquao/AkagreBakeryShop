@@ -6,7 +6,7 @@ import { HeartHandshake,PartyPopper,ChevronLeft, ChevronRight } from 'lucide-rea
 import { FaRegMoneyBill1} from "react-icons/fa6";
 import { FaFireAlt } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
-import backgroundeclipse from '../assets/backgroundeclipse.png'
+
 
 
 function About() {
@@ -210,7 +210,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}>
-          <img src={founder} alt="Richmond Adeyis" loading="lazy" />
+          <img src={founder} alt="Richmond Akagre Nsogurime" loading="lazy" />
         </motion.div>
       </div>
       
